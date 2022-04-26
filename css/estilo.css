@@ -12,9 +12,32 @@ header{
 body{
     background-color: #3f31a1;
     color: #f93d8a;
+    padding-bottom: 32px;
+}
+
+#container{
+    color: #5ef3fb;
+}
+
+#emailHelp{
+    color: #5ef3fb;
+}
+
+.icon32{
+    width: 32px;
+    height: 32px;
+}
+
+label{
+    color: #5ef3fb;
+}
+
+#enviar{
+    color: #e0284d;
+    background-color: #261f65;
 }
 
 #contacto{
-    color: #5ef3fb;
+    background-color: #261f65;
 }
 
