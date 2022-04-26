@@ -4,6 +4,17 @@
     color: white;
 }
 
-.iconlink{
-    background-color: #3F31A1;
+header{
+    color: black;
+    background-color: #e0284d;
 }
+
+body{
+    background-color: #3f31a1;
+    color: #f93d8a;
+}
+
+#contacto{
+    color: #5ef3fb;
+}
+
