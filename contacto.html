@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=O, initial-scale=1.0">
+    <meta name="author" content="Bautista Sande Clop">
+    <meta name="description" content="Portafolio web online de Bautista Sande Clop">
+
+    <!-- CDN Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Bautista Sande Clop - Contacto</title>
+
+</head>
+
+<body id="contactoBody">
+    <header>
+        <nav class="navbar navbar-expand-lg justify-content-between navbar-light ">
+            <span class="navbar-brand"><img width="50px" height="50px" src="images/keyboard.png" alt="teclado"></span>
+            <span>Bautista Sande Clop - Contacto</span>
+
+            <div class="">
+                <button onclick="document.getElementById('contacto').reset()" id="reset" class="btn"><img width="24px"
+                        height="24px" src="images/reload.png" alt="reload"></button>
+                <button id="back" onclick="history.back()" class="btn"><img width="20px" height="20px"
+                        src="images/close.png" alt="cerrar"></button>
+            </div>
+        </nav>
+    </header>
+
+
+        <div id="container" class="d-flex flex-column justify-content-start my-5">
+            <form id="contacto" class="container rounded align-self-stretch">
+                    <div class="row align-items-center px-3 pt-3">
+                        <div class="col-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Ingresá tu nombre">
+                        </div>
+                        <div class="col">
+                            <label for="mail">Direccion de email</label>
+                            <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="Ingresá tu email">
+                        </div>
+                    </div>
+                    <div class="row align-items-start ml-0">
+                        <div class="col-2"></div>
+                        <div class="col">
+                            <small id="emailHelp" class="form-text ml-1 text-white-50">No compartiré tu mail a nadie</small>
+                        </div> 
+                    </div> 
+                    <div class="row align-items-center px-3 pt-3">
+                        <div class="col mt-3">
+                            <label for="comentariosArea">Mensaje</label>
+                            <textarea name="comentariosArea" id="comentariosArea" class="form-control" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div id="row1" class="row justify-content-end px-4 pb-3">
+                        <div id="col1" class="col-1">
+                            <button onclick="alert('Esta funcionalidad aun esta siendo programada!\nPara ponerte en contacto por favor escribeme a sandeclopbautista@gmail.com')" 
+                            id="enviar" class="btn btn-outline-info mt-4">Enviar</button>
+                        </div>
+                        
+                    </div>           
+            </form>
+        </div>
+        
+        
+
+        <footer>
+            <div class="container-fluid pb-4">
+                <a href="https://www.flaticon.com/free-icons/keyboard" title="keyboard icons">Keyboard icons created by flatart_icons - Flaticon</a>
+            <div> Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect"> Pixel perfect </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+            </div>
+            <div class="d-flex flex-row align-items-center justify-content-between fixed-bottom" id="footer">
+    
+                <div class="bd-highlight ml-2 mb-0">
+                     Bautista Sande Clop
+                </div>
+    
+    
+                <div class="p-1 pr-3 pl-3 mr-2 iconlink">
+                    <a class="mr-2" href="mailto:sandeclopbautista@gmail.com" target="_blank"><img src="images/icons8-gmail-32.png" alt="gmail"></a>
+                    <a class="mr-2" href="https://www.linkedin.com/in/bautista-sande-clop-1006b621a/" target="_lank"> <img src="images/linkedin32px.png" alt="linkedin"> </a>
+                    <a href="https://github.com/BSandeClop" target="_blank"> <img src="images/GitHub-Mark-Light-32px.png" alt="github"> </a>
+                </div>
+    
+            </div>
+    </footer>
+
+    <!--JQuery, Popper.js y Bootstrap CDNs-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
