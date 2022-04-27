@@ -14,17 +14,20 @@
 
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!-- CDN Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <title>Bautista Sande Clop - Contacto</title>
 
 </head>
 
 <body id="contactoBody">
     <header>
-        <nav class="navbar navbar-expand-lg justify-content-between navbar-light ">
-            <span class="navbar-brand"><img width="50px" height="50px" src="images/keyboard.png" alt="teclado"></span>
-            <span>Bautista Sande Clop - Contacto</span>
-
-            <div class="">
+        <nav class="navbar navbar-expand-lg justify-content-between align-items-centera">
+            <span class="navbar-brand"><img width="50px" height="50px" src="images/keyboard.png" alt="teclado">
+                <span class="navbar-text animate__animated pl-1"> Bautista Sande Clop - Contacto </span>
+            </span>
+            <div>
                 <button onclick="document.getElementById('contacto').reset()" id="reset" class="btn"><img width="24px"
                         height="24px" src="images/reload.png" alt="reload"></button>
                 <button id="back" onclick="history.back()" class="btn"><img width="24px" height="24px"
@@ -33,11 +36,24 @@
         </nav>
     </header>
 
+    <main>
+        <div class="container-fluid pt-3">
+            <div class="row d-flex justify-content-center ">
+                    <h1 class="animate__animated animate__zoomIn">Gracias por contactarte</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <p class="pt-2">
+                     Siempre estoy dispuesto a escuchar ofertas laborales, feedback, preguntas y proyectos colaborativos
+                </p>
+            </div>
+        </div>
+    </main>
 
+    <!-- Contact form -->
         <div id="container" class="d-flex flex-column justify-content-start my-5">
             <form id="contacto" class="container rounded align-self-stretch">
                     <div class="row align-items-center px-3 pt-3">
-                        <div class="col-2">
+                        <div class="col-3">
                             <label for="nombre">Nombre</label>
                             <input type="text" id="nombre" class="form-control" placeholder="Ingresá tu nombre">
                         </div>
@@ -47,7 +63,7 @@
                         </div>
                     </div>
                     <div class="row align-items-start ml-0">
-                        <div class="col-2"></div>
+                        <div class="col-3"></div>
                         <div class="col">
                             <small id="emailHelp" class="form-text ml-1 text-white-50">No compartiré tu mail a nadie</small>
                         </div> 
@@ -63,31 +79,26 @@
                             <button onclick="alert('Esta funcionalidad aun esta siendo programada!\nPara ponerte en contacto por favor escribeme a sandeclopbautista@gmail.com')" 
                             id="enviar" class="btn btn-outline-info mt-4">Enviar</button>
                         </div>
-                        
                     </div>           
             </form>
-        </div>
-        
-        
-
-        <footer>
+        </div>     
+    <footer class="pt-5">
             <div class="container-fluid pb-4">
-                <a href="https://www.flaticon.com/free-icons/keyboard" title="keyboard icons">Keyboard icons created by flatart_icons - Flaticon</a>
-            <div> Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect"> Pixel perfect </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
-            </div>
+
+            <!-- Credits -->    
+                <span class="text-muted"> Iconos creados por <a class="text-muted" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect"> Pixel perfect </a> de <a class="text-muted" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </span>
+
+            <!-- Fixed footer -->
             <div class="d-flex flex-row align-items-center justify-content-between fixed-bottom" id="footer">
-    
                 <div class="bd-highlight ml-2 mb-0">
                      Bautista Sande Clop
                 </div>
-    
-    
                 <div class="p-1 pr-3 pl-3 mr-2 iconlink">
                     <a class="mr-2" href="mailto:sandeclopbautista@gmail.com" target="_blank"><img src="images/icons8-gmail-32.png" alt="gmail"></a>
                     <a class="mr-2" href="https://www.linkedin.com/in/bautista-sande-clop-1006b621a/" target="_lank"> <img src="images/linkedin32px.png" alt="linkedin"> </a>
                     <a href="https://github.com/BSandeClop" target="_blank"> <img src="images/GitHub-Mark-Light-32px.png" alt="github"> </a>
                 </div>
-    
             </div>
     </footer>
 
