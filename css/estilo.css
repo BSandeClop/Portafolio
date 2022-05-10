@@ -5,6 +5,31 @@
     bottom: 0%
 }
 
+.navbar-toggler-icon{
+    background-image: url(/images/menu.png);
+}
+
+#contactoBody{
+    background: linear-gradient(-45deg, #e0284d,#261f65,#3f31a1,#3f31a1,#261f65,#e0284d);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
 main{
     color: #f93d8a;
 }
@@ -14,9 +39,21 @@ header{
     background-color: #e0284d;
 }
 
-body{
+.modal-content{
     background-color: #3f31a1;
+}
+
+.modal-header{
+    color: black;
+    background-color: #e0284d;
+}
+
+.modal-body{
     color: #f93d8a;
+    background-color: #3f31a1;
+}
+
+body{
     padding-bottom: 32px;
 }
 
@@ -47,7 +84,7 @@ label{
 }
 
 #enviar{
-    color: #e0284d;
+    color: #5ef3fb;
     background-color: #261f65;
 }
 

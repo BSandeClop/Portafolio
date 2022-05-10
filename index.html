@@ -20,15 +20,18 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg justify-content-between align-items-center ">
+        <nav class="navbar navbar-expand-sm  sticky-top justify-content-between align-items-center">
             <span class="navbar-brand"><img width="50px" height="50px" src="images/keyboard.png" alt="teclado">
                 <span class="navbar-text pl-1"> Bautista Sande Clop - Portafolio Web </span>
             </span>
-            <a href="contacto.html"><button id="contacto" class="btn btn-outline-info my-2 my-sm-0">Contacto</button></a>
-            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="false" aria-label="Cambiar navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContenido">
+                <a href="contacto.html"><button id="contacto" class="btn btn-outline-info my-2 my-sm-0">Contacto</button></a>
+            </div>
         </nav>
-
-    </header> 
+    </header>
 
     <main>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure atque, cupiditate illum quod illo ex
