@@ -40,6 +40,9 @@
     animation: gradient 30s ease infinite;
 }
 
+#navbarContenido{
+ text-align: right;
+}
 
 
 @keyframes gradient {
